@@ -1,0 +1,33 @@
+
+=== 댓글달기 [post]
+
+댓글 생성, 수정, 삭제를 요청 하는데 사용 합니다.
+
+
+==== /comment [small silver]*[POST]*
+
+`POST` 요청은 댓글을 생성하는 것을 보여줍니다.
+
+include::{snippets}/create-reply/http-request.adoc[]
+
+===== 요청 구조
+
+====== 요청 파라미터들
+
+include::{snippets}/create-reply/request-fields.adoc[]
+
+===== 응답 구조
+
+====== 응답 파라미터들
+
+include::{snippets}/create-reply/response-fields.adoc[]
+
+===== 예제 자원
+
+include::{snippets}/create-reply/http-response.adoc[]
+
+
+===== Links
+
+include::{snippets}/create-reply/links.adoc[]
+
